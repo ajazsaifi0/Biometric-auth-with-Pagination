@@ -1,0 +1,22 @@
+class GlobalVariable {
+  static List<String> SharedPrefsName = [];
+  static List<String> SharedPrefsDesc = [];
+  static List<String> language = [];
+  static List<String> watchers_count = [];
+  static List<String> open_isuues = [];
+  void setname(List<String> name) {
+    this.SharedPrefsName = name;
+  }
+  void setDesc(List<String> name) {
+    this.SharedPrefsDesc = name;
+  }
+  void setLang(List<String> name) {
+    this.language = name;
+  }
+  void setname(List<String> name) {
+    this.SharedPrefsName = name;
+  }
+  void setname(List<String> name) {
+    this.SharedPrefsName = name;
+  }
+}
